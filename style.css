@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    /* background-image: url("./Assets/To-do-bg.jpeg");
+    background-repeat: no-repeat; */
+    background-color: rgb(127, 221, 221);
+    margin: 1rem 1rem;
+    height: 100vh;
+    border-radius: 8px;
+}
+
+.logo {
+    font: bold 20px arial, helvetica, sans-serif;
+    padding: 20px;
+    /* border: 2px yellow solid; */
+}
+
+.cye {
+    color: goldenrod;
+}
+
+.to-do {
+    color: blueviolet;
+}
+
+.list {
+    background-color: aliceblue;
+    /* padding: 30%; */
+    margin: 20px;
+    border-radius: 8px;
+}
+
+ul li {
+    list-style: none;
+    line-height: 3.5;
+}
+
+li {
+    float: center;
+}
+
+.add {
+    color: black;
+    border-left: 4px solid purple;
+    padding: 10px;
+    /* display: flex;
+    justify-content: space-between; */
+    line-height: 2;
+}
+
+.add:hover {
+    border-left: 4px solid rgb(27, 181, 97);
+}
+
+.delete {
+    background-color: red;
+    border-radius: 8px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+}
+
+.delete:hover {
+    background-color: brown;
+}
