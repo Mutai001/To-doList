@@ -28,8 +28,12 @@
 }
 
 .list {
+    padding: 30px 20px;
+}
+
+.list .add-task {
     background-color: aliceblue;
-    /* padding: 30%; */
+    padding: 30px 20px;
     margin: 20px;
     border-radius: 8px;
 }
@@ -46,10 +50,6 @@ li {
 .add {
     color: black;
     border-left: 4px solid purple;
-    padding: 10px;
-    /* display: flex;
-    justify-content: space-between; */
-    line-height: 2;
 }
 
 .add:hover {
@@ -58,11 +58,9 @@ li {
 
 .delete {
     background-color: red;
-    border-radius: 8px;
+    border-radius: 4px;
     color: black;
-    padding: 10px;
-    margin-bottom: 15px;
-    margin-left: 200px;
+    float: right;
 }
 
 .delete:hover {
